@@ -1,0 +1,22 @@
+{
+  "name": "stylekit",
+  "version": "1.0.0",
+  "description": "StyleKit",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "José Antonio González Rodríguez",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.3",
+    "gulp-inject": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0"
+  }
+}

@@ -1,0 +1,100 @@
+
+.sk-button {
+  background-color: $white-color;
+  border: 1px solid lighten($text-color, 25%);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: $text-color;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $primary-font-family, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  height: 40px;;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin: 5px;
+  padding: 0 40px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  -webkit-transition: all 300ms ease-out 0s;
+  -moz-transition: all 300ms ease-out 0s;
+  -o-transition: all 300ms ease-out 0s;
+  transition: all 300ms ease-out 0s;
+
+  &.sk-button-large {
+    font-size: 1.25em;
+    height: 45px;;
+    line-height: 45px;
+    padding: 0 45px;
+  }
+
+  &.sk-button-small {
+    font-size: 0.75em;
+    height: 35px;;
+    line-height: 35px;
+    padding: 0 35px;
+  }
+
+  &.sk-button-thin {
+    font-weight: 200;
+  }
+
+  &.sk-button-bold {
+    font-weight: 700;
+  }
+
+  &.primary {
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+    color: $white-color;
+
+    -webkit-transition: all 300ms ease-out 0s;
+    -moz-transition: all 300ms ease-out 0s;
+    -o-transition: all 300ms ease-out 0s;
+    transition: all 300ms ease-out 0s;
+
+    &:hover {
+      background-color: darken($primary-color, 5%);
+      border: 1px solid darken($primary-color, 5%);
+
+      -webkit-transition: all 300ms ease-out 0s;
+      -moz-transition: all 300ms ease-out 0s;
+      -o-transition: all 300ms ease-out 0s;
+      transition: all 300ms ease-out 0s;
+    }
+  }
+
+  &.secondary {
+    background-color: $secondary-color;
+    border: 1px solid $secondary-color;
+    color: $white-color;
+
+    -webkit-transition: all 300ms ease-out 0s;
+    -moz-transition: all 300ms ease-out 0s;
+    -o-transition: all 300ms ease-out 0s;
+    transition: all 300ms ease-out 0s;
+
+    &:hover {
+      background-color: darken($secondary-color, 5%);
+      border: 1px solid darken($secondary-color, 5%);
+
+      -webkit-transition: all 300ms ease-out 0s;
+      -moz-transition: all 300ms ease-out 0s;
+      -o-transition: all 300ms ease-out 0s;
+      transition: all 300ms ease-out 0s;
+    }
+  }
+
+  &:hover {
+    border: 1px solid $text-color;
+
+    -webkit-transition: all 300ms ease-out 0s;
+    -moz-transition: all 300ms ease-out 0s;
+    -o-transition: all 300ms ease-out 0s;
+    transition: all 300ms ease-out 0s;
+  }
+}
