@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900);
 /*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -361,16 +361,85 @@ textarea {
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
+.sk-uppercase {
+  text-transform: uppercase; }
+
+.sk-lowercase {
+  text-transform: lowercase; }
+
+.sk-subtitle {
+  color: #7b7b7b;
+  margin-top: 0;
+  margin-bottom: 1.25rem; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 2em;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  color: #555; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem; }
+
+h1 {
+  font-size: 4.0rem;
+  line-height: 1.2;
+  letter-spacing: -.1rem; }
+
+h2 {
+  font-size: 3.6rem;
+  line-height: 1.25;
+  letter-spacing: -.1rem; }
+
+h3 {
+  font-size: 3.2rem;
+  line-height: 1.3;
+  letter-spacing: -.1rem; }
+
+h4 {
+  font-size: 2.8rem;
+  line-height: 1.35;
+  letter-spacing: -.08rem; }
+
+h5 {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  letter-spacing: -.05rem; }
+
+h6 {
+  font-size: 2.0rem;
+  line-height: 1.6;
+  letter-spacing: 0; }
+
+p, span, a {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.6rem; }
+
+a {
+  text-decoration: none;
+  color: #01BEBE;
+  -webkit-transition: all 300ms ease-out 0s;
+  -moz-transition: all 300ms ease-out 0s;
+  -o-transition: all 300ms ease-out 0s;
+  transition: all 300ms ease-out 0s; }
+  a:hover {
+    color: #4F9DFD; }
+
 .sk-button {
   background-color: #FEFEFE;
   border: 1px solid #959595;
   border-radius: 4px;
   box-sizing: border-box;
-  color: #555;
+  color: #7b7b7b;
   cursor: pointer;
   display: inline-block;
-  font-family: "Lato", Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 1.25rem;
   font-weight: 400;
   height: 40px;
   letter-spacing: 0;
@@ -385,24 +454,30 @@ textarea {
   -moz-transition: all 300ms ease-out 0s;
   -o-transition: all 300ms ease-out 0s;
   transition: all 300ms ease-out 0s; }
+  .sk-button:hover {
+    border: 1px solid #555;
+    color: #555;
+    -webkit-transition: all 300ms ease-out 0s;
+    -moz-transition: all 300ms ease-out 0s;
+    -o-transition: all 300ms ease-out 0s;
+    transition: all 300ms ease-out 0s; }
   .sk-button.sk-button-large {
-    font-size: 1.25em;
+    font-size: 1.5rem;
     height: 45px;
     line-height: 45px;
     padding: 0 45px; }
   .sk-button.sk-button-small {
-    font-size: 0.75em;
+    font-size: 1rem;
     height: 35px;
     line-height: 35px;
     padding: 0 35px; }
-  .sk-button.sk-button-thin {
-    font-weight: 200; }
   .sk-button.sk-button-bold {
-    font-weight: 700; }
+    font-weight: 900; }
+  .sk-button.primary, .sk-button.secondary {
+    color: #FEFEFE; }
   .sk-button.primary {
     background-color: #01BEBE;
     border: 1px solid #01BEBE;
-    color: #FEFEFE;
     -webkit-transition: all 300ms ease-out 0s;
     -moz-transition: all 300ms ease-out 0s;
     -o-transition: all 300ms ease-out 0s;
@@ -417,7 +492,6 @@ textarea {
   .sk-button.secondary {
     background-color: #4F9DFD;
     border: 1px solid #4F9DFD;
-    color: #FEFEFE;
     -webkit-transition: all 300ms ease-out 0s;
     -moz-transition: all 300ms ease-out 0s;
     -o-transition: all 300ms ease-out 0s;
@@ -429,9 +503,3 @@ textarea {
       -moz-transition: all 300ms ease-out 0s;
       -o-transition: all 300ms ease-out 0s;
       transition: all 300ms ease-out 0s; }
-  .sk-button:hover {
-    border: 1px solid #555;
-    -webkit-transition: all 300ms ease-out 0s;
-    -moz-transition: all 300ms ease-out 0s;
-    -o-transition: all 300ms ease-out 0s;
-    transition: all 300ms ease-out 0s; }

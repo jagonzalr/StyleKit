@@ -1,0 +1,9 @@
+
+.sk-uppercase { text-transform: uppercase; }
+.sk-lowercase { text-transform: lowercase; }
+
+.sk-subtitle {
+  color: lighten($text-color, 15%);
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
